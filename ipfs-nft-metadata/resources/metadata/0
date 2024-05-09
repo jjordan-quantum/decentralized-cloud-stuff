@@ -1,0 +1,11 @@
+{
+    "name": "basic-nft",
+    "attributes": [
+        {
+            "trait_type": "tokenID",
+            "value": "0"
+        }
+    ],
+    "description": "basic-nft image",
+    "image": "ipfs://QmUTwWN3TQe4J2zTxWX8NHt2s5Umfy54Las5PyWvSDtyVJ/0.jpg"
+}

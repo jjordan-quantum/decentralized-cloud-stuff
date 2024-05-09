@@ -1,0 +1,21 @@
+{
+  "name": "multi-page",
+  "version": "1.0.0",
+  "description": "1. Upload `src` folder to IPFS 2. Get 'SHARE' link (CID) 3. Paste link into browser -> multi-page, navigable website should load 4. Pin CID either on local IPFS desktop or pinning service (works much better - resolves faster)",
+  "main": "index.js",
+  "scripts": {
+    "pin": "node src/pin.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "base-path-converter": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "got": "^14.2.1",
+    "recursive-fs": "^2.1.0"
+  }
+}
